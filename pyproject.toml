@@ -1,0 +1,10 @@
+[project]
+name = "persistent-agent"
+version = "0.1.0"
+description = "Behavioral continuity from explicit external memory"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
